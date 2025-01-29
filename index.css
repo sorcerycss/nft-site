@@ -1,0 +1,120 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #2b283a;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* Layout */
+
+header {
+  background: #5f29a3;
+  padding: 45px 0;
+}
+
+section {
+  padding: 45px 0;
+}
+
+.container {
+  width: 620px;
+  margin: 0 auto;
+}
+
+.section-two {
+  background: #5f29a3;
+  color: whitesmoke;
+}
+
+.container-image {
+  display: flex;
+  justify-content: space-between;
+}
+
+.secondary-image {
+  width: 300px;
+  border-radius: 4.6px;
+}
+
+footer {
+  color: #5f29a3;
+  text-align: center;
+  padding: 45px 0;
+}
+
+/* Typography */
+
+h1 {
+  font-size: 2.25rem;
+  color: whitesmoke;
+  margin: 0;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-top: 0;
+}
+
+h3 {
+  font-size: 1.25rem;
+  color: #d0aaff;
+  margin: 0;
+}
+
+p {
+  line-height: 23px;
+}
+
+/* Links */
+
+a {
+  color: #ef5839;
+  text-decoration: underline dotted;
+}
+
+a:hover,
+a:active {
+  color: #d4bb4c;
+}
+
+/* Buttons */
+
+.btn {
+  display: inline-block;
+  font-weight: 500;
+  text-decoration: none;
+  border-radius: 4.6px;
+  padding: 10px 19px;
+}
+
+.btn:hover,
+.btn:active {
+  background: #d4bb4c;
+  color: #2b283a;
+}
+
+.btn-purple {
+  background: #5f29a3;
+  color: whitesmoke;
+}
+
+.btn-purple-light {
+  background: #f0e0ff;
+  color: #5f29a3;
+}
+
+.btn-white {
+  background: whitesmoke;
+  color: #5f29a3;
+}
